@@ -18,6 +18,8 @@
 		C74EFC2C15154C7C006E95B7 /* SEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C74EFC2A15154C7C006E95B7 /* SEUser.m */; };
 		C74EFC2F15154ECD006E95B7 /* SECreateUser.h in Headers */ = {isa = PBXBuildFile; fileRef = C74EFC2D15154ECD006E95B7 /* SECreateUser.h */; };
 		C74EFC3015154ECD006E95B7 /* SECreateUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C74EFC2E15154ECD006E95B7 /* SECreateUser.m */; };
+		C75BB7AC15290B9300DFEA25 /* SEUrlDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C75BB7AA15290B9300DFEA25 /* SEUrlDownloader.h */; };
+		C75BB7AD15290B9300DFEA25 /* SEUrlDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C75BB7AB15290B9300DFEA25 /* SEUrlDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		C74EFC2A15154C7C006E95B7 /* SEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUser.m; sourceTree = "<group>"; };
 		C74EFC2D15154ECD006E95B7 /* SECreateUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SECreateUser.h; sourceTree = "<group>"; };
 		C74EFC2E15154ECD006E95B7 /* SECreateUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SECreateUser.m; sourceTree = "<group>"; };
+		C75BB7AA15290B9300DFEA25 /* SEUrlDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEUrlDownloader.h; sourceTree = "<group>"; };
+		C75BB7AB15290B9300DFEA25 /* SEUrlDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEUrlDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +106,13 @@
 		C74EFC0415154C25006E95B7 /* SomeExamples */ = {
 			isa = PBXGroup;
 			children = (
+				C74EFC2915154C7C006E95B7 /* SEUser.h */,
+				C74EFC2A15154C7C006E95B7 /* SEUser.m */,
 				C74EFC2D15154ECD006E95B7 /* SECreateUser.h */,
 				C74EFC2E15154ECD006E95B7 /* SECreateUser.m */,
 				C74EFC0515154C25006E95B7 /* Supporting Files */,
-				C74EFC2915154C7C006E95B7 /* SEUser.h */,
-				C74EFC2A15154C7C006E95B7 /* SEUser.m */,
+				C75BB7AA15290B9300DFEA25 /* SEUrlDownloader.h */,
+				C75BB7AB15290B9300DFEA25 /* SEUrlDownloader.m */,
 			);
 			path = SomeExamples;
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 			files = (
 				C74EFC2B15154C7C006E95B7 /* SEUser.h in Headers */,
 				C74EFC2F15154ECD006E95B7 /* SECreateUser.h in Headers */,
+				C75BB7AC15290B9300DFEA25 /* SEUrlDownloader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +256,7 @@
 			files = (
 				C74EFC2C15154C7C006E95B7 /* SEUser.m in Sources */,
 				C74EFC3015154ECD006E95B7 /* SECreateUser.m in Sources */,
+				C75BB7AD15290B9300DFEA25 /* SEUrlDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +403,7 @@
 				C74EFC2515154C25006E95B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C74EFC2615154C25006E95B7 /* Build configuration list for PBXNativeTarget "SomeExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +412,7 @@
 				C74EFC2815154C25006E95B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
